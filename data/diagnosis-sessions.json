@@ -1,0 +1,28 @@
+[
+  {
+    "sessionId": "diag-smoke-test",
+    "createdAt": "2026-07-14T10:01:05.763Z",
+    "updatedAt": "2026-07-14T10:01:05.763Z",
+    "latestStep": 2,
+    "steps": [
+      {
+        "step": 2,
+        "updatedAt": "2026-07-14T10:01:05.763Z",
+        "state": {
+          "sessionId": "diag-smoke-test",
+          "formData": {
+            "consultantName": "tester",
+            "studentName": "홍길동",
+            "schoolName": "테스트고",
+            "grade": "3학년",
+            "studentPhone": "010-0000-0000",
+            "parentPhone": "010-1111-1111",
+            "email": "smoke@example.com",
+            "careerTrack": "건축공학"
+          },
+          "pdfAnalysis": null
+        }
+      }
+    ]
+  }
+]

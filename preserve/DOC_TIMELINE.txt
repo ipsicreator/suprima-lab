@@ -1,0 +1,10 @@
+﻿Ideas timeline
+01 README.md
+02 SUPRIMA_PROJECT_PLAN.md
+03 TECHNICAL_REPORT.md
+04 app-ui-template-spec.md
+05 service-guide-2026-06-22.md
+
+Ops docs timeline
+01 technical-report-2026-06-22.md
+02 deployment-ops-2026-06-22.md
