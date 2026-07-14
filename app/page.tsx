@@ -53,6 +53,20 @@ export default function Home() {
         />
 
         <Link
+          href="/intro"
+          style={{
+            position: "absolute",
+            top: "0",
+            right: "0",
+            width: "30%",
+            height: "15%",
+            zIndex: 10,
+            cursor: "pointer",
+          }}
+          aria-label="센터소개 바로가기"
+        />
+
+        <Link
           href="/diagnosis/step1"
           style={{
             position: "absolute",

@@ -6,7 +6,8 @@ import { useRouter } from "next/navigation";
 import { ChangeEvent, useMemo, useState } from "react";
 import { loadDiagnosisState, saveDiagnosisStateLocal, saveDiagnosisStateRemote } from "../client-state";
 import { defaultDiagnosisState, type DiagnosisFormData, type DiagnosisState, type PdfAnalysisResult } from "../diagnosis-data";
-import { diagnosisLabels, diagnosisSteps, diagnosisTitles } from "../messages";
+import { diagnosisLabels, diagnosisTitles } from "../messages";
+import { diagnosisSteps } from "../steps";
 
 export default function DiagnosisStep1Page() {
   const router = useRouter();

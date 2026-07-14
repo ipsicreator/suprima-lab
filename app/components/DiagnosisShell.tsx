@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ReactNode } from "react";
-import { diagnosisLabels, diagnosisSteps } from "@/app/diagnosis/messages";
+import { diagnosisLabels } from "@/app/diagnosis/messages";
+import { diagnosisSteps } from "@/app/diagnosis/steps";
 
 export default function DiagnosisShell({
   currentStep,
